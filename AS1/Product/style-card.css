@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: start;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(56, 55, 55);
+    color: rgb(246, 243, 243);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(44, 42, 42);
+
+}
+
+section {
+    max-width: 1200px;
+    margin: -80px auto 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+section h1 {
+    margin-bottom: 80px;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.Main-img {
+    flex: 6;
+    background-color: rgb(32, 34, 35);
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    max-width: 450px;
+    margin-left: 100px;
+
+
+}
+
+.Main-img img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Main-table {
+    flex: 4;
+    width: 100%;
+    border-collapse: collapse;
+    /* gộp border lại cho đẹp */
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Main-table th,
+.Main-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.text {
+    margin: 30px 0;
+    padding: 10px;
+    margin-right: 120px;
+    background-color: rgb(56, 55, 55);
+    max-width: 650px;
+    border-radius: 10px;
+    justify-self: center;
+
+}
